@@ -1,0 +1,48 @@
+.AddVacation {
+      &__buttons{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            & > button{
+                  width: 45%;
+            }
+      }
+
+      &__AddModal{
+            & h2{
+                  color: rgb(0, 0, 241);
+            }
+                  & img{
+                        border: 0.5px solid;
+                        border-radius: 5px;
+                        width: 50%;
+                        height: 100px;
+                        object-fit: fill;
+                  }
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+            width: 35%;
+            border: 1px solid black;
+            padding: 20px;
+      }
+      &__closeModal{
+            float: left;
+            cursor: pointer;      
+      }
+}
+
+input[type=file]::file-selector-button {
+      margin-right: 20px;
+      border: none;
+      background: #084cdf;
+      padding: 4px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      transition: background .2s ease-in-out;
+    }
+    
+    input[type=file]::file-selector-button:hover {
+      background: #4d6da4;
+    }
