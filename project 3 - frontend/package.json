@@ -31,7 +31,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://timmy111093.github.io/Vacations",
+  "homepage": "https://timmy111093.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
