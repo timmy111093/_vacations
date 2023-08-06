@@ -1,0 +1,17 @@
+.Header {
+    &__header{
+        background: linear-gradient(270deg,rgb(190, 219, 230),whitesmoke,white);
+        height:9vh;
+        border-bottom: 0.5px solid lightgray;
+        margin-left: 2%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        & > h4{
+            color: rgb(0, 99, 255);
+            font-size: 2em;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
+}
